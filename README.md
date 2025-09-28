@@ -7,7 +7,7 @@ In this Programming Assignment, we are asked to use and apply the basic function
 Create a function that takes a string and returns a string with its letters in alphabetical order.
 
 **Code Description:**
-This code displays how to use the ```sorted()``` and ```.join()``` functions to convert a string into a list of sorted individual elements, and then joined together by a connector, in this case, ```''.join()``` is used so that the output is a string without spaces. The user is asked to input a string, and that string is inserted to the function under a different variable. The code below has comments that explain how every line works, and what they do for the final output
+In the code, a function aphabet_soup is created, that takes an input from the user, organizes the letters from highest to lowest based on their ASCII values in the form of a list. Then, the elements of that list are joined together to create a new string
 
 ```
 #Defining the function
@@ -36,7 +36,7 @@ Output: aabehlpt
 Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
 
 **Code Description:**
-This code displays how a function can detect certain words in an inputted string, and replace them with another string using the ```replace()``` function. For example, the code ```y=y.replace("smile", ":)")``` works so that if the word smile is found in the inputted string, it gets replaced with a smiling emoji. It shows how strings can be modified with the help of reassigning of variables, without changing the whole string. The user is asked to input a string, and that string is inserted into the function under another variable. The code below has comments that explain how every line works, and what they do for the final output
+In the code, the function emotify takes a string input from the user, and looks for the words 'smile', 'grin', 'sad', or 'mad' in that string. If it finds one or more of those words in the string, they are replaced with their respective emoticon
 
 ```
 #Defining the function
@@ -69,7 +69,7 @@ Output: I'm so >:(
 **Problem:** Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
 **Code Description:**
-This code shows how an inputted set of numbers as a string can be split into a list of individual strings using ```.split()```. This code also shows how the if else syntax works, and finally, shows the usefullness of unpacking a list when we try to locate and extract specific variables from a list. The user is first asked to input a set separated by spaces. That list is then split using ```.split()```, and that splitted list is assigned under a new name ```Newlist```. The if else statement in the code requires the list to have 3 or more elements in order to have a first, middle, and last. If the condition is satisfied, the first, middle, and last are printed, and if not, then the user will recieve an error saying that they need to input 3 or more numbers. The code below contains comments that explain how every line works.
+In the code, the user is asked to input a list, a set of numbers separated by spaces. The program turns that into an actual python list, and the first, middle, and last elements of that list are displayed, if the number of elements is sufficient. The middle presents all numbers between the first and last element.
 
 ```
 #Ask users to input a set of numbers separated by spaces

@@ -25,7 +25,7 @@ Sorted_word = alphabet_soup(Word)
 print("Sorted word: ", Sorted_word)
 ```
 
-**How to Get Started:**
+**Output:**
 ```
 Input: alphabet
 Output: aabehlpt
@@ -59,7 +59,7 @@ Emotified_sentence = emotify(Sentence)
 print("Emotified Sentence: ", Emotified_sentence)
 ```
 
-**How to Get Started:**
+**Output:**
 ```
 Input: I'm so mad
 Output: I'm so >:(
@@ -86,7 +86,7 @@ else:
      print("Input 3 or more digits")#if the inputted list does not have 3 or more digits, an error message will appear
 ```
 
-**How to Get Started:**
+**Output:**
 ```
 Input: 1 2 3 4 5 6 7 8 9 10
 Output: first:  1 	middle:  ['2', '3', '4', '5', '6', '7', '8', '9'] 	last:  10
